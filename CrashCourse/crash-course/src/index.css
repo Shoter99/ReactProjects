@@ -1,16 +1,30 @@
 body {
   margin: 0;
   padding: 0;
+<<<<<<< Updated upstream
+=======
+  
+>>>>>>> Stashed changes
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(32, 32, 32);
 }
 *{
   margin: 0;
   padding: 0;
 }
+@media screen and (min-width: 500px) {
+  body{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -21,8 +35,10 @@ code {
   padding: 0;
 }
 .mainHeader{
-  display: flex;
-  justify-content: space-between;
+  letter-spacing: 4px;
+  text-align: left;
+  color: rgb(160, 160, 160);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   align-items: center;
   padding: 12px;
   background-color: rgba(0, 255, 255, 0.349);
@@ -35,4 +51,76 @@ code {
 .btn:hover{
   opacity: .7;
   cursor: pointer;
+<<<<<<< Updated upstream
+=======
+}
+.tasks{
+  background-color: rgb(49, 49, 49);
+  text-align: left;
+  padding: 10px;
+  color: #fff;
+  border-bottom: 2px dashed white;
+  min-height: 400px;
+
+}
+.task{
+  border: 2px dashed white;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+
+}
+.task p{
+  color: rgba(255, 255, 255, 0.589);
+}
+.reminder{
+  border-left: 4px solid rgb(118, 173, 35);
+}
+.firstLine{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form{
+  background-color: rgb(63, 63, 63);
+  color: #fff;
+}
+input{
+  border: none;
+  border-bottom: 2px white solid;
+  background-color: transparent;
+  margin-left: 5px;
+  outline: none;
+  color: #fff;
+}
+button[type=submit]{
+  background: rgb(167, 24, 24);
+  border-radius: 5px;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  margin: 5px;
+}
+button[type=submit]:hover{
+  opacity: 0.7;
+  font-size: 1em;
+  cursor: pointer;
+}
+#taskName{
+  padding: 10px;
+}
+#taskRemind{
+  padding: 10px;
+}
+#taskDay{
+  padding: 10px;
+}
+.delBtn{
+  cursor: pointer;
+}
+.footer{
+  background-color: rgb(32, 32, 32);
+  color:#fff;
+
+>>>>>>> Stashed changes
 }
