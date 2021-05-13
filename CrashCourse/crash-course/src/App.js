@@ -1,8 +1,11 @@
 import firebase from './firebase'
 import Header from './componets/Header'
+
 import { useEffect, useState } from 'react';
 import Tasks from './componets/Tasks';
 import TaskForm from './componets/TaskForm'
+import Footer from './componets/Footer'
+
 
 function useTasks() {
   const [tasks, setTasks] = useState([])
@@ -31,6 +34,7 @@ function App() {
       <Header />
       <Tasks tasks={tasks}/>
       <TaskForm />
+      <Footer />
     </div>
   );
 }
