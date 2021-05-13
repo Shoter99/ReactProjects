@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  
+  background-color: rgb(221, 221, 221);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -38,12 +38,13 @@ code {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   align-items: center;
   padding: 12px;
-  background-color: rgba(0, 255, 255, 0.349);
+  background-color: rgba(53, 58, 58, 0.349);
 }
 .btn{
-  padding: 0 10px;
+  padding: 5px 10px;
   color: #fff;
   border: none;
+  font-weight: bold;
 }
 .btn:hover{
   opacity: .7;
@@ -56,7 +57,6 @@ code {
   color: #fff;
   border-bottom: 2px dashed white;
   min-height: 400px;
-
 }
 .task{
   border: 2px dashed white;
@@ -116,5 +116,4 @@ button[type=submit]:hover{
 .footer{
   background-color: rgb(32, 32, 32);
   color:#fff;
-
 }
