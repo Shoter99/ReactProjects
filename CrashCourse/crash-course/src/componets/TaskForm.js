@@ -34,7 +34,7 @@ const TaskForm = () => {
             </div>
             <div id="taskDay">
                 <label htmlFor="day">When</label>
-                <input required={true} type="text" name="day" id="day" value={day} onChange={e => setDay(e.currentTarget.value)} />
+                <input required={true} type="datetime-local" name="day" id="day" value={day} onChange={e => setDay(e.currentTarget.value)} />
             </div>
             <div id='taskRemind'>
                 <label htmlFor="remind">Should I remaind</label>
